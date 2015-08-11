@@ -1,0 +1,41 @@
+--- Command Verbs: ---
+
+--- Save & Load: ---
+Objects to save/load using the JSON object:
+* Maps (including objects arrays)
+* Characters (including inventory, position)
+* Enabled/Disabled commands ???
+
+Separate loading the environment from loading the
+data.  Data load should take place during the Initialized
+function.
+
+--- Inventory: ---
+Each character has an array of items.
+Limit the number of items like in WoW.
+
+--- Character Screen: ---
+Use the shell to open an HTA that shows character data.
+Save data to a temporary JSON file to be opened in the HTA.
+
+--- Map: ---
+Use the shell to open an HTA that shows the map.
+Have a separate property of objects to determine if it
+can be mapped.
+
+--- Story & Goal: ---
+SCENARIO #1:
+You are in the middle of a battle.  The 2 opposing 
+camps are on opposite sides of a battlefield.  Many 
+soldiers are fighting with each other.  Should I have 
+2 ai's (good vs bad) or all unique?
+
+This scenario is complete when you can kill the commander
+who is able to spawn more soldiers.  You lose when your
+commander is killed.
+
+SCENARIO #2:
+You come home victorious only to find that your family is
+gone.  Clues lead you to search for them, and eventually 
+find them in a city.  You win when you successfully can
+get them out of the city and safely back home.

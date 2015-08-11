@@ -1,0 +1,8 @@
+{
+	"w":"up",
+	"a":"left",
+	"s":"down",
+	"d":"right",
+	"g":"get",
+	"i":"inventory"
+}

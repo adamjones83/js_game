@@ -1,0 +1,51 @@
+{
+	"menu": {"Disable":"","Enable":""},
+	"buttons": {"Disable":"","Enable":""},
+	"viewport":{"Update":"", "LoadMap":"", "OnClick":"", "CellInfo":""},
+	"maps":{},
+	"objects":[],
+	"characters":[],
+	"RunCommand":"",
+	"Keypress":"",
+	"Mouse":"",
+	"info":{ "Write":"", "Clear":"" },
+	"item_prototypes":[],
+	"item_types":[
+		"Foot Armor",
+		"Leg Armor",
+		"Belt",
+		"Chest Armor",
+		"Head Armor",
+		"Bag",
+		"Quiver",
+		"Ammo Pouch",
+		"Melee Weapon",
+		"Ranged Weapon",
+		"Misc Item"
+	],
+	"abilities": {
+		"Look":"look",
+		"Get":"get",
+		"Sleep":"sleep",
+		"Rest":"rest",
+		"Use":"use",
+		"Talk":"talk",
+		"Push":"push",
+		"Disarm":"disarm",
+		"Shoot":"shoot",
+		"Heal":"heal",
+		"Plague":"plague",
+		"Fear":"fear",
+		"Confusion":"confusion",
+		"Bless":"bless",
+		"Curse":"curse",
+		"Part Water":"partwater"
+	},
+	"menuitems":{
+		"Save":"save",
+		"Load":"load",
+		"Character":"character",
+		"Inventory":"inventory",
+		"Show Map":"map"
+	}
+}

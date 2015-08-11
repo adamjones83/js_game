@@ -1,0 +1,30 @@
+{	
+	"tree":{
+		"name":"Tree",
+		"img":"tree1.png",
+		"visible":true,
+		"canCarry": false,
+		"canMove": false,
+		"canEquip": false,
+		"dmg":0,
+		"itemtype":0,
+		"weight":0,
+		"holdWeight":0,
+		"use": ""
+	},
+	"tent":{
+		"name":"Tent",
+		"img":"tent.png",
+		"visible":true,
+		"canCarry": false,
+		"canMove": false,
+		"canEquip": false,
+		"dmg":0,
+		"itemtype":0,
+		"weight":0,
+		"holdWeight":0,
+		"use": "",
+		"trigger": "say,<a onclick='GAME.RunCommand(\"enable,save\"); return false;'>Enable Save</a>.",
+		"walkable": true
+	}
+}

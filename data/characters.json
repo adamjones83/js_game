@@ -1,0 +1,47 @@
+{
+	"img":"avgguy.png",
+	"name":"Player",
+	"race":"",
+	"visible":true,
+	"x":0,
+	"y":0,
+	"basestats":{
+		"strength": 100,
+		"health": 100,
+		"faith": 100,
+		"offhandpenalty": 0.9
+	},
+	"buffs":{
+		"strength":0,
+		"health": 0,
+		"faith": 0,
+		"offhandpenalty": 0,
+		"dmg":0,
+		"armor":0,
+		"hp":0,
+		"fp":0,
+		"speed":0
+	},
+	"armorstats":{
+		"strength":0,
+		"health": 0,
+		"faith": 0,
+		"offhandpenalty": 0,
+		"dmg":0,
+		"armor":0,
+		"hp":0,
+		"fp":0,
+		"speed":0
+	},
+	"endstats":{
+		"dmg":0,
+		"armor":0,
+		"hp":0,
+		"fp":0,
+		"speed":0
+	},
+	"inventory":{
+	},
+	"armor":{
+	}
+}
